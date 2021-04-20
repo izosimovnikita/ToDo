@@ -36,32 +36,4 @@ code {
     border-right: 1px solid #f1f1f1;
     padding: 60px 20px;
   }
-
-  &__list {
-    li {
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      padding: 10px 12px;
-      margin-bottom: 5px;
-
-      &.active {
-        background: #FFFFFF;
-        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
-        border-radius: 4px;
-      }
-
-
-      i {
-        display: inline-flex;
-        margin-right: 10px;
-
-        svg {
-          path {
-            fill: #7C7C7C;
-          }
-        }
-      }
-    }
-  }
 }
