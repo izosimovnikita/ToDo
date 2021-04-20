@@ -1,10 +1,11 @@
 .list {
+	margin-bottom: 30px;
+
 	li {
 		display: flex;
 		align-items: center;
 		cursor: pointer;
 		padding: 10px 12px;
-		margin-bottom: 5px;
 
 		&.active {
 		background: #FFFFFF;
@@ -14,14 +15,33 @@
 
 
 		i {
-		display: inline-flex;
-		margin-right: 10px;
+			display: inline-flex;
+			margin-right: 8px;
 
-		svg {
-			path {
-			fill: #7C7C7C;
+			svg {
+				path {
+					fill: #7C7C7C;
+				}
 			}
 		}
+
+		.badge {
+			width: 10px;
+			height: 10px;
+			border-radius: 30px;
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+
+			&--green {
+				background-color: #42B883;
+			}
+			&--blue {
+				background-color: #64C4ED;
+			}
+			&--pink {
+				background-color: #FFBBCC;
+			}
 		}
 	}
 }
